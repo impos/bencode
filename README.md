@@ -33,7 +33,7 @@ func main() {
 	dict["dict key"] = map[string]interface{}{
 		"1": 1,
 		"2": "2",
-    }
+	}
 	
 	result, err := bencode.Encode(dict)
 	if err != nil {
